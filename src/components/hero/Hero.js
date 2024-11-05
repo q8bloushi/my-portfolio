@@ -66,9 +66,9 @@ export const Hero = () => {
           >
         Motivated Programmer 
       </motion.div>
-        {/* <div className="imageContainer">
-            <img src="/hero.png" alt=""/>
-        </div> */}
+        <div className="imageContainer">
+            <img src="/myphoto.png" alt=""/>
+        </div>
     </div>
   )
 }
