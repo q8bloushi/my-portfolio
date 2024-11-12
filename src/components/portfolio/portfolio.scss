@@ -22,6 +22,19 @@
         background-color: white;
       }
     }
+
+    @media (max-width: 425px) {
+      .space-tag{
+        margin: 5px;
+        padding: 1px;
+      }
+    }
+
+    @media (min-width: 430px) {
+      .space-tag{
+        display:none;
+      }
+    }
   
     .container {
       display: flex;

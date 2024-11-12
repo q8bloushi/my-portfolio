@@ -63,6 +63,8 @@ const Single = ({item}) => {
               <ai>
               <motion.button whileHover={{background:"yellow"} } onClick={() => window.open(item.link, '_blank')}>See Demo</motion.button>
               <span>&nbsp; &nbsp;</span>
+              <div className="space-tag">
+              </div>
               <motion.button whileHover={{background:"yellow"} } onClick={() => window.open(item.source, '_blank')}>See the Code</motion.button>
               </ai>
               
