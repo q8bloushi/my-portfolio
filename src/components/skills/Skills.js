@@ -62,7 +62,7 @@ export const Skills = () => {
             Managing to create a Full-stack web app using various frameworks
             such as vanilla javascript, React, and PHP.
           </p>
-          <motion.button whileHover={{background:"yellow"}}>Go</motion.button>
+          <motion.button onClick={() => window.location.href = 'https://github.com/q8bloushi'} whileHover={{background:"yellow"}}>Go</motion.button>
         </div>
 
         <div className="box">
@@ -71,7 +71,7 @@ export const Skills = () => {
           I’m a passionate UI/UX designer dedicated to crafting intuitive and engaging user experiences.
           I transform complex ideas into elegant designs that resonate with users
           </p>
-          <motion.button whileHover={{background:"yellow"}}>Go</motion.button>
+          <motion.button onClick={() => window.location.href = 'https://youtu.be/SyZuHndDNkE'} whileHover={{background:"yellow"}}>Go</motion.button>
         </div>
 
         <div className="box">
