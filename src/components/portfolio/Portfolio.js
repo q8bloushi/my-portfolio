@@ -32,12 +32,21 @@ const items = [
 
     {
         id:4,
-        title:"UI/UX using (MockPlus)",
+        title:"UX using (MockPlus)",
         img:"./UI.png",
-        desc:"A UI/UX design similar to social media apps but made for students.",
+        desc:"A UX design similar to social media apps but made for students.",
         link: "https://youtu.be/SyZuHndDNkE",
         source: "https://youtu.be/SyZuHndDNkE",
-    }
+    },
+
+    {
+      id:5,
+      title:"UI/UX using (Figma)",
+      img:"./UI2.png",
+      desc:"A UI/UX design similar to shop media apps.",
+      link: "https://www.figma.com/design/DB1XV2KCyuyyayS9EuAzlN/Project%3A-Alpha?node-id=0-1&t=pcLtf97YCcOw1UDC-1",
+      source: "https://www.figma.com/design/DB1XV2KCyuyyayS9EuAzlN/Project%3A-Alpha?node-id=0-1&t=pcLtf97YCcOw1UDC-1",
+  }
 ]
 
 const Single = ({item}) => {
